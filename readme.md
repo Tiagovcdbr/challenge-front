@@ -1,38 +1,70 @@
-![Eplus](https://www.agenciaeplus.com.br/wp-content/themes/eplus/images/agencia-eplus-n-logo.png)
+# Getting Started with Create React App
 
-# E-Plus Frontend Challenge
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Seja bem-vindo ao E-Plus Front-end Challenge, considere este o primeiro passo para fazer parte de uma das melhores equipes de ecommerce e marketing digital do Brasil!
+## Available Scripts
 
-Para completar o desafio com sucesso você precisará codificar o layout que segue no projeto, para isso será necessário consumir um json via xhttp que retornará uma lista de produtos na resposta do request e servirá para alimentar/manipular o mini-cart.
+In the project directory, you can run:
 
-Então mãos a obra e bom challenge ;)
+### `npm start`
 
-## Design
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- O topo apresentado deve seguir o [seguinte design](https://projects.invisionapp.com/share/NARHXUS6HCF#/357617423_Eplus)
-- Baseado neste layout, faça uma adaptação responsiva para celulares.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Como realizar o teste
+### `npm test`
 
-- Faça um fork deste repositório em seu GitHub
-- Adicione ao Readme uma descrição de como executar seu projeto
-- Descreva as funcionalidades do seu desafio, nos conte tudo que fez! Se fez o desafio utilizando pré-processadores, por exemplo, pois usaremos estas informações para avaliá-lo. 
-- O ideal é que este challenge leve até 8h.
-- Faça commits parciais, para que possamos acompanhar o seu desenvolvimento.
-- Em caso de dúvidas, entre em contato com nadia@agenciaeplus.com.br
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Dicas
+### `npm run build`
 
-- Os ícones usados, são todos do Material Design. https://material.io/icons/
-- A fonte utilizada é Montserrat (Está fonte se encontra no google fonts). 
-- Trabalhamos com clientes perfeccionistas, portanto tenha atenção com espaçamentos, tamanhos e estilos de fonte. 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Critérios de avaliação
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Alcançar os objetivos propostos
-- Qualidade de código
-- Commits parciais, mostrando a linha de desenvolvimento
-- Boa descrição das funcionalidades do desafio
-- Fidelidade ao design proposto
-- Adaptação mobile
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
