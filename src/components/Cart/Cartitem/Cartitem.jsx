@@ -3,15 +3,13 @@ import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@
 
 import useStyles from './styles';
 
-// Evento adicionar e remover item do carrinho
-
 const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
   const classes = useStyles();
 
   const handleUpdateCartQty = (lineItemId, newQuantity) => onUpdateCartQty(lineItemId, newQuantity);
 
   const handleRemoveFromCart = (lineItemId) => onRemoveFromCart(lineItemId);
-// Conteúdo do carrinho recebendo a ação
+
   return (
     <Card className="cart-item">
       <CardMedia image={item.media.source} alt={item.name} className={classes.media} />

@@ -2,9 +2,7 @@ import React from 'react';
 import { Container, Typography, Button, Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
-// Adicionando e modulando carrinho
-
-import CartItem from './CartItem/CartItem';
+import CartItem from './Cartitem/Cartitem';
 import useStyles from './styles';
 
 const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
@@ -19,7 +17,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
   );
 
   if (!cart.line_items) return 'Loading';
-// Modulando carrinho para visão mobile e implementando as funções 
+
   const renderCart = () => (
     <>
       <Grid container spacing={3}>

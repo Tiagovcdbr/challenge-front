@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, List, ListItem, ListItemText } from '@material-ui/core';
-// Revisão dos produtos antes de finalizar a compra
+
 const Review = ({ checkoutToken }) => (
   <>
     <Typography variant="h6" gutterBottom>Order summary</Typography>

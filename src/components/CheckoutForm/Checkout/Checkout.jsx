@@ -6,7 +6,7 @@ import { commerce } from '../../../lib/commerce';
 import AddressForm from '../AddressForm';
 import PaymentForm from '../PaymentForm';
 import useStyles from './styles';
-// Validação do Cadastro e métodos de pagamentos
+
 const steps = ['Shipping address', 'Payment details'];
 
 const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
@@ -44,7 +44,7 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
   let Confirmation = () => (order.customer ? (
     <>
       <div>
-        <Typography variant="h5">Obrigado por Comprar, {order.customer.firstname} {order.customer.lastname}!</Typography>
+        <Typography variant="h5">Thank you for your purchase, {order.customer.firstname} {order.customer.lastname}!</Typography>
         <Divider className={classes.divider} />
         <Typography variant="subtitle2">Order ref: {order.customer_reference}</Typography>
       </div>
