@@ -14,7 +14,7 @@ carrinho
 ```
 
 ```
-### Aplicação React com o comando npx create-react-app "nome da aplicação"
+### Aplicação React criada com o comando npx create-react-app "nome da aplicação"
 ```
 
 ```
