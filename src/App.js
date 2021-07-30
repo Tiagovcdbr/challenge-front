@@ -11,7 +11,7 @@ const App = () => {
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
-
+  // Evento esperar para receber a lista de produtos ao carrinho
   const fetchProducts = async () => {
     const { data } = await commerce.products.list();
 
@@ -27,31 +27,31 @@ const App = () => {
 
     setCart(item.cart);
   };
-
+  // Evento Atualizar carrinho qtd
   const handleUpdateCartQty = async (lineItemId, quantity) => {
     const response = await commerce.cart.update(lineItemId, { quantity });
 
     setCart(response.cart);
   };
-
+  // Evento remover do carrinho
   const handleRemoveFromCart = async (lineItemId) => {
     const response = await commerce.cart.remove(lineItemId);
 
     setCart(response.cart);
   };
-
+  // Evento carrinho vazio
   const handleEmptyCart = async () => {
     const response = await commerce.cart.empty();
 
     setCart(response.cart);
   };
-
+  // Evento carrinho atualizar
   const refreshCart = async () => {
     const newCart = await commerce.cart.refresh();
 
     setCart(newCart);
   };
-
+  // Evento carrinho checar
   const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
     try {
       const incomingOrder = await commerce.checkout.capture(checkoutTokenId, newOrder);

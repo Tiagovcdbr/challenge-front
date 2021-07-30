@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-
+// Estilização dos itens que aparecem na tela como a proporção que ocupa
 export default makeStyles(() => ({
   root: {
     // maxWidth: 345, original width style
@@ -7,7 +7,7 @@ export default makeStyles(() => ({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '100%', // 16:9
   },
   cardActions: {
     display: 'flex',

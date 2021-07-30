@@ -1,11 +1,11 @@
 import { makeStyles, fade } from '@material-ui/core/styles';
 
 const drawerWidth = 0;
-
+// Ajustes geral do navbar da aplicação como icones, menus e imagens
 export default makeStyles((theme) => ({
   appBar: {
     boxShadow: 'none',
-    borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
+    borderBottom: '3px solid rgba(0, 0, 0, 0.12)',
     [theme.breakpoints.up('sm')]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
@@ -16,9 +16,12 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
     display: 'flex',
     textDecoration: 'none',
+    width: '25px',
   },
-  image: {
+  image: { // Ajuste do tamanho da imagem no cabeçalho
     marginRight: '10px',
+    width: '37%',
+    height: '50px',
   },
   menuButton: {
     marginRight: theme.spacing(2),
