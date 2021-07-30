@@ -1,4 +1,6 @@
-Challenge-front
+![Eplus](https://www.agenciaeplus.com.br/wp-content/themes/eplus/images/agencia-eplus-n-logo.png)
+
+# Challenge-front
 Desafio E-Plus Front-End Challenge com estrutura React
 
 ```
