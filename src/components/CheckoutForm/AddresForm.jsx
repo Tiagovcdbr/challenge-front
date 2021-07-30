@@ -47,7 +47,7 @@ const AddressForm = ({ checkoutToken, test }) => {
   useEffect(() => {
     if (shippingSubdivision) fetchShippingOptions(checkoutToken.id, shippingCountry, shippingSubdivision);
   }, [shippingSubdivision]);
-// Formulário para autenticar usuário 
+  // Formulário para autenticar usuário
   return (
     <>
       <Typography variant="h6" gutterBottom>Shipping address</Typography>
