@@ -30,7 +30,7 @@ carrinho
 ```
 
 ```
-### Para rodar a aplicaão faça um fork ou git clone e rode o comando npm install
+### Para rodar a aplicação faça um fork ou git clone e rode o comando npm install
 para instalar os node_modules e rodar no domínio localhost:3000 ou de sua escolha
 ```
 
