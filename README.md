@@ -57,5 +57,5 @@ src/components/CheckoutForm/AdressForm.jsx entre as linhas 57:95
 solicitada no site https://commercejs.com/ e assim adicionando a quantidade de itens
 que for da vontade do DEV. vale ressaltar que o projeto tem apenas 4 itens em 
 sua Home page principal mas é possível adicionar mais produtos e personaliza-los da
-elhor maneira possível e tornar o Layout agradável e impressionante.
+melhor maneira possível e tornar o Layout agradável e impressionante.
 ```
