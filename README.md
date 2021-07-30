@@ -1,7 +1,11 @@
 ![Eplus](https://www.agenciaeplus.com.br/wp-content/themes/eplus/images/agencia-eplus-n-logo.png)
 
 # Challenge-front
-Desafio E-Plus Front-End Challenge com estrutura React
+
+## Design
+
+- O topo apresentado deve seguir o [seguinte design](https://projects.invisionapp.com/share/NARHXUS6HCF#/357617423_Eplus)
+- Baseado neste layout, faça uma adaptação responsiva para celulares.
 
 ```
 ## Desafio front-end Agencia e-Plus-ecommerce-digital onde é proposto replicar o projeto
